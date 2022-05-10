@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+header{
+    height: 9rem;
+    width: 100%;
+    background: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header > img{
+    width: 9rem;
+    height: 9rem;
+}
+
+main{
+    margin: 4rem;
+}
+
+.card1{
+    display: flex;
+    width: 100%;
+    height: 20rem;
+    background: white;
+    border-radius: 2rem;
+    box-shadow: 0 2rem 2rem 1rem rgba(0,0,0,0.2);
+}
+
+footer{
+    height: 6rem;
+    width: 100%;
+    background: rgb(0, 0, 0);
+}
