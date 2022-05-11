@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -12,9 +13,37 @@
         <img src="img/UJ-logo.png" alt="">
     </header>
     <main>
-        <article>
+        <article class="article-card1">
             <section class="card1">
-                <img src="img/adidas.jpg" alt="">
+                <img onclick="showModal(colection11)" src="img/adidas.jpg" alt="">
+                <div id="colection11" class="colection1M">
+                    <!-- Modal content -->
+                    <div class="colection1MC">
+                        <div class="headercolection1M">
+                            <header class="headercolection1M">
+                                <h2>De bedreigde zwaan, Jan Asselijn, ca. 1650</h2>
+                                <span onclick="closeModal(colection11)" class="colection1closeM">&times;</span>
+                            </header>
+                        </div>
+                        <h3 class="h3colectionM">Verhaal van het schilderij</h3>
+                        <p class="pcolection1M">
+                            Energiek verdedigt een zwaan haar nest tegen een hond. Het gevecht werd in latere eeuwen
+                            politiek geduid:
+                            de witte zwaan werd opgevat als de in 1672 vermoorde staatsman Johan de Witt,die het
+                            land verdedigt tegen zijn vijanden.
+                            Met die interpretatie kwam het schilderij in 1800 als eerste aankoop in de Nationale
+                            Kunstgalerij
+                            (de voorloper van het Rijksmuseum) terecht.
+                        </p>
+                        <h3 class="h3colectionM">Jan Asselijn</h3>
+                        <p class="pcolection1M">
+                            Geboren in het 1600 ongeveer<br>
+                            Overleden in het jaar 1652<br>
+                            Hij was actief in het jaren 1632-1652<br>
+                            Geboorteland: Nederland
+                        </p>
+                    </div>
+                </div>
             </section>
             <section class="card1">
                 <img src="img/nike.jpg" alt="">
@@ -24,8 +53,12 @@
             </section>
         </article>
         <section class="card2">
-            
         </section>
+        <article class="article-card3">
+            <section class="card1"></section>
+            <section class="card1"></section>
+            <section class="card1"></section>
+        </article>
     </main>
 </body>
 </html>
