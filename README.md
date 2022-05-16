@@ -1,7 +1,7 @@
 # Bo-webshop-UJ
 Deze repository bevat de UJ webshop 
 
-#Gemaakt door Uday SD1B en Jacob SD1A
+Gemaakt door Uday SD1B en Jacob SD1A
 
 Ons project is een webshop waar je verschilde brands van kleding die wie kopen.
 Ons doelgroep is jongeren en mensen die sporten.
