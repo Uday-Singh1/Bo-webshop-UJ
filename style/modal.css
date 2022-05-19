@@ -10,7 +10,7 @@
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
+    padding-top: 10rem; /* Location of the box */
     left: 0;
     top: 0;
     width: 100%; /* Full width */
@@ -29,6 +29,7 @@
     margin-bottom: 20px;
     height: 90px;
     font-family: sans-serif;
+    border-radius: 1rem;
   }
   
   .headercolection1M1-2{
@@ -58,10 +59,11 @@
   .colection1MC{
     background-color: snow;
     margin: auto;
-    padding: 10px;
+    padding-bottom: 1rem;
     border: 1px solid #888;
     width: 50%;
     border: black solid;
+    border-radius: 1.5rem;
   }
   
   .colection1closeM {
