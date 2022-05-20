@@ -9,4 +9,4 @@ Ons functionaliteiten die op ons webshop zijn: zoekblak, inlog form, filter, cli
 
 Trello bord link : https://trello.com/b/9xje4MXk/bo-webshop-uj
 
-Sql link : http://localhost/phpmyadmin/index.php?route=/table/structure&&server=1&db=Makeitrain&table=Producten
+Sql <img width="1680" alt="Sql ontwerp" src="https://user-images.githubusercontent.com/91188742/169496107-6ccd9dcd-0713-406d-8c32-147a16f3a4de.png">
